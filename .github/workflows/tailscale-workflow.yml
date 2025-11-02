@@ -2,4 +2,4 @@
     uses: tailscale/github-action@v4
     with:
      authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
-      use-cache: 'false'
+      use-cache: 'true'
